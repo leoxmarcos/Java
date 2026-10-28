@@ -72,7 +72,7 @@ public class bankThreadEx {
         Bank b = new Bank();
 
         MyThread t1 = new MyThread(b, 7000);
-        MyThread t2 = new MyThread(b, 7000);
+        MyThread t2 = new MyThread(b, 4000);
 
         Thread obj = new Thread(t1, "t1");
         Thread obj2 = new Thread(t2, "t2");
